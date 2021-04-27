@@ -4,6 +4,7 @@ public class Person {
 
     private String name;
     private String lName;
+    private double weight;
 
     public Person(String name, String lName) {
         this.name = name;
@@ -24,5 +25,13 @@ public class Person {
 
     public void setlName(String lName) {
         this.lName = lName;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
     }
 }
