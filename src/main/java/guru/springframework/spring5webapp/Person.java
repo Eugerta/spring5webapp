@@ -2,6 +2,7 @@ package guru.springframework.spring5webapp;
 
 public class Person {
 
+<<<<<<< HEAD
     private String fName;
 
     private String lName;
@@ -19,7 +20,6 @@ public class Person {
 
     public void setfName(String fName) {
         this.fName = fName;
-
     }
 
     public String getlName() {
@@ -30,6 +30,7 @@ public class Person {
         this.lName = lName;
     }
 
+
     public int getAge() {
         return age;
     }
@@ -37,4 +38,5 @@ public class Person {
     public void setAge(int age) {
         this.age = age;
     }
+
 }

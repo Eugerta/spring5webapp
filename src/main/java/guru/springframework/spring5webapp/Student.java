@@ -2,7 +2,6 @@ package guru.springframework.spring5webapp;
 
 public class Student {
 
-
     private String student_id;
     private String name;
 
@@ -26,4 +25,6 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
 }
+
