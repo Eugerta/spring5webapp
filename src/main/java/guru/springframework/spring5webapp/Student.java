@@ -2,20 +2,21 @@ package guru.springframework.spring5webapp;
 
 public class Student {
 
-    private String id;
+
+    private String student_id;
     private String name;
 
-    public Student(String id, String name) {
-        this.id = id;
+    public Student(String student_id, String name) {
+        this.student_id = student_id;
         this.name = name;
     }
 
     public String getId() {
-        return id;
+        return student_id;
     }
 
     public void setId(String id) {
-        this.id = id;
+        this.student_id = id;
     }
 
     public String getName() {

@@ -19,6 +19,7 @@ public class Person {
 
     public void setfName(String fName) {
         this.fName = fName;
+
     }
 
     public String getlName() {
